@@ -1,8 +1,8 @@
-Introduction to Data Mining
+﻿Introduction to Data Mining
 
 Homework 2 : Finding Similar Items (chapter 3)
 
-snucse 2012-11262
+SNUCSE 2012-11262
 Lee Seung Jun
 
 uploaded in : https://github.com/vs223/introduction_to_datamining/tree/master/hw2
@@ -27,11 +27,11 @@ Q2.
         { them, hemo, emos, most, oste, stef, teff, effe, ffec, fect }
 
     2) What is the largest number of k-shingles the above sentence can have? 
-        let n is the number of every character on above sentence excluding white space.
-        n - k + 1
+        let n is the number of every character on the above sentence excluding white spaces.
+       n - k + 1
 
 Q3.
-    Element |S1 |S2 |S3 |S4
+    Element  |S1 |S2 |S3 |S4
         0    |0  |1  |0  |1
         1    |0  |1  |0  |0
         2    |1  |0  |0  |1 
@@ -72,21 +72,21 @@ Q3.
     3) Estimate the Jaccard similarities between each pair of the given columns in Figure 1 using all the min-hash signatures computed in 1). What are the differences between them and the true Jaccard similarities?
         
                  |True   |Estimated  |Difference (estimated one - true one)
-    sim(S1, S2) |0       |1/3          |1/3
-    sim(S1, S3) |0       |1/3          |1/3
-    sim(S1, S4) |1/4     |2/3          |5/12
-    sim(S2, S3) |0       |2/3          |2/3
-    sim(S2, S4) |1/4     |2/3          |5/12
-    sim(S3, S4) |1/4     |2/3          |5/12
+    sim(S1, S2) |0       |1/3        |1/3
+    sim(S1, S3) |0       |1/3        |1/3
+    sim(S1, S4) |1/4     |2/3        |5/12
+    sim(S2, S3) |0       |2/3        |2/3
+    sim(S2, S4) |1/4     |2/3        |5/12
+    sim(S3, S4) |1/4     |2/3        |5/12
 
 Q4. 
     Compute the threshold, that is, the value of s for which the value of 1 − (1 − s^r)^b is exactly 1/2 for each of the following (r, b) pairs.        
     
-    1-(1-s^r)^b = 1/2
-    (1-s^r) = (1/2)^(1/b)
-    s = (1-(1/2)^(1/b))^(1/r)
+    1 - ( 1 – s^r )^b = 1/2
+    ( 1 – s^r ) = ( 1/2 )^( 1/b )
+    s = ( 1 - ( 1/2 )^( 1/b ))^( 1/r )
 
-    computed with ptyhon code which uploaded my github repo
+    computed with python code which uploaded in my github repository
 
     https://github.com/vs223/introduction_to_datamining/blob/master/hw2/q4.py
     

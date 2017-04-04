@@ -25,14 +25,14 @@ Q2.
         The most effective way to represent documents as sets, for the purpose of identifying lexically similar documents is to construct from the document the set of short strings that appear within it. 
 
         { 
-            the most effective way, 
+            The most effective way, 
             most effective way to,
             effective way to represent,
             way to represent documents,
             to represent documents as,
             represent documents as sets,,
             documents as sets, for,
-            as sets, for the purpose,
+            as sets, for the,
             sets, for the purpose,
             for the purpose of
         }

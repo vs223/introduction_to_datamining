@@ -24,11 +24,22 @@ Q2.
 
         The most effective way to represent documents as sets, for the purpose of identifying lexically similar documents is to construct from the document the set of short strings that appear within it. 
 
-        { them, hemo, emos, most, oste, stef, teff, effe, ffec, fect }
+        { 
+            the most effective way, 
+            most effective way to,
+            effective way to represent,
+            way to represent documents,
+            to represent documents as,
+            represent documents as sets,,
+            documents as sets, for,
+            as sets, for the purpose,
+            sets, for the purpose,
+            for the purpose of
+        }
 
     2) What is the largest number of k-shingles the above sentence can have? 
-        let n is the number of every character on the above sentence excluding white spaces.
-       n - k + 1
+        let n is the number of every word on the above sentence.
+        n - k + 1
 
 Q3.
     Element  |S1 |S2 |S3 |S4
